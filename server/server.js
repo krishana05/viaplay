@@ -15,7 +15,7 @@ app.use(cors()); // allow any cross origin
 
 // get api call to serve showlist json data
 app.get('/shows', (req, res, next) => {
-  fs.readFile(path.resolve('./src/data/shows.json'), 'utf-8', (err, data) => {
+  fs.readFile(path.resolve('./data/shows.json'), 'utf-8', (err, data) => {
     if (err) {
       console.error(err);
       return res.status(500).send('Failed to fetch the data');
@@ -42,7 +42,7 @@ app.use('^/$', (req, res, next) => {
   });
 });
 
-//app.use(express.static(path.resolve(__dirname, '..', 'build')));
+app.use(express.static(path.resolve(__dirname, '..', 'build')));
 
 app.listen(PORT, () => {
   console.log(`App launched on http://localhost:${PORT}/`);
