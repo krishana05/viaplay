@@ -1,0 +1,33 @@
+.body {
+  padding: 20px 100px;
+  min-height: 720px;
+}
+.searchBox {
+  margin: 10px 15px;
+}
+#search {
+  margin: 0px 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#search:focus {
+  outline: 2px solid #2e1ba6;
+}
+.body img {
+  height: 320px;
+  width: 320px;
+  margin: 10px;
+}
+.imageBox {
+  display: inline-block;
+  cursor: pointer;
+}
+.imageBox:focus {
+  outline: 2px solid #2e1ba6;
+}
+.no-result {
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

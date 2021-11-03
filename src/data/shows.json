@@ -1,0 +1,3437 @@
+{
+    "type": "page",
+    "pageType": "category",
+    "sectionId": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+    "title": "TV-serier online - Streama bra serier på nätet el ladda ned",
+    "description": "Viaplay erbjuder serier på nätet för hela familjen. Streama bra TV-serier online i hög kvalitet eller ladda ned till tablet eller mobil!",
+    "styles": [
+        "category"
+    ],
+    "_links": {
+        "curies": [
+            {
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+            }
+        ],
+        "self": {
+            "href": "https://content.viaplay.se/pc-se/serier/samtliga"
+        },
+        "viaplay:root": {
+            "id": "root",
+            "title": "Start",
+            "href": "https://content.viaplay.se/pc-se"
+        },
+        "viaplay:editorial": {
+            "id": "editorial",
+            "href": "https://content.viaplay.se/pc-se/editorial"
+        },
+        "viaplay:socket": {
+            "id": "socket",
+            "href": "https://socket.viaplay.se/"
+        },
+        "viaplay:socket2": {
+            "id": "socket",
+            "href": "https://socket2.viaplay.se/"
+        },
+        "viaplay:search": {
+            "title": "Sök",
+            "href": "https://content.viaplay.se/pc-se/search{?query}",
+            "templated": true
+        },
+        "viaplay:autocomplete": {
+            "title": "autocomplete",
+            "href": "https://content.viaplay.se/pc-se/autocomplete{?query}",
+            "templated": true
+        },
+        "viaplay:byGuid": {
+            "title": "byGuid",
+            "href": "https://content.viaplay.se/pc-se/byguid/{guid}{?returnFirstEpisode,seasonId,tveProgram}",
+            "templated": true
+        },
+        "viaplay:searchSuggestions": {
+            "title": "byGuids",
+            "href": "https://content.viaplay.se/pc-se/search-suggestions/{guids}",
+            "templated": true
+        },
+        "viaplay:validateSession": {
+            "id": "validateSession",
+            "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+            "templated": true
+        },
+        "viaplay:translations": {
+            "id": "translations",
+            "href": "https://cms-service.viaplay.com/translations/pc",
+            "templated": false
+        },
+        "viaplay:technotifier": {
+            "id": "technotifier",
+            "href": "https://viaplay.mtg-api.com/tech-notifications/v1/viaplay/sv-se/pc"
+        },
+        "viaplay:sections": [
+            {
+                "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+                "title": "Serier",
+                "href": "https://content.viaplay.se/pc-se/serier",
+                "type": "vod",
+                "name": "series",
+                "active": true
+            },
+            {
+                "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+                "title": "Filmer",
+                "href": "https://content.viaplay.se/pc-se/film",
+                "type": "vod",
+                "name": "movie"
+            },
+            {
+                "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+                "title": "Sport",
+                "href": "https://content.viaplay.se/pc-se/sport",
+                "type": "sportPerDay",
+                "name": "sport"
+            },
+            {
+                "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+                "title": "Barn",
+                "href": "https://content.viaplay.se/pc-se/barn",
+                "type": "children",
+                "name": "kids"
+            },
+            {
+                "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+                "title": "Hyr & köp",
+                "href": "https://content.viaplay.se/pc-se/store",
+                "type": "vod",
+                "name": "rental"
+            },
+            {
+                "id": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d",
+                "title": "Prova Viaplay",
+                "href": "https://content.viaplay.se/pc-se/package",
+                "type": "editorial",
+                "name": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d"
+            }
+        ],
+        "viaplay:geolocation": {
+            "href": "https://viaplay.mtg-api.com/geolocation/viaplay/portability{?ip,country}"
+        },
+        "viaplay:retrieveUserInformation": {
+            "id": "retrieveUserInformation",
+            "href": "https://viaplay.mtg-api.com/user-information/{brand}/users/{userId}",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:localizationLanguages": {
+            "id": "localizationLanguages",
+            "href": "https://viaplay.mtg-api.com/localization/languages/se",
+            "method": "GET"
+        },
+        "viaplay:localizationCountry": {
+            "id": "localizationCountry",
+            "href": "https://viaplay.mtg-api.com/localization/countries/{countryCode}",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:userJourneyGetJourney": {
+            "id": "userJourneyGetJourney",
+            "href": "https://viaplay.mtg-api.com/user-journey/user/{userId}/profile/{profileId}/journey/{journeyId}",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:login": {
+            "title": "Login",
+            "href": "https://login.viaplay.se/api/login/v1?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga{&username,password,persistent,forward}",
+            "templated": true
+        },
+        "viaplay:tokenLogin": {
+            "href": "https://login.viaplay.se/api/tokenLogin?deviceKey=pc-se{&accessToken,refreshToken,persistent,returnurl}",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:tokenRefresh": {
+            "href": "https://login.viaplay.se/api/tokenRefresh/{userId}?deviceKey=pc-se",
+            "method": "POST",
+            "templated": true
+        },
+        "viaplay:setParentalControl": {
+            "id": "setParentalControl",
+            "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/parental-control",
+            "method": "POST",
+            "templated": true
+        },
+        "viaplay:userPwdUpdate": {
+            "id": "userPwdUpdate",
+            "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/password",
+            "method": "PUT",
+            "templated": true
+        },
+        "viaplay:userPwdLoginRequest": {
+            "id": "userPwdLoginRequest",
+            "href": "https://viaplay.mtg-api.com/identity/{brand}/auth/pwd/sessions",
+            "method": "POST",
+            "templated": true
+        },
+        "viaplay:passwordToken": {
+            "id": "createPasswordToken",
+            "href": "https://viaplay.mtg-api.com/identity/viaplay/emails/{email}/user/password-token",
+            "method": "POST",
+            "templated": true
+        },
+        "viaplay:resetPassword": {
+            "id": "resetPassword",
+            "href": "https://viaplay.mtg-api.com/identity/viaplay/passwords",
+            "method": "PUT"
+        },
+        "viaplay:retrieveUserEmail": {
+            "id": "retrieveUserEmail",
+            "href": "https://viaplay.mtg-api.com/identity/{brand}/reset-pwd-tokens/{+resetPwdToken}/user/email",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:universalLinkResolver": {
+            "id": "universalLinkResolver",
+            "href": "https://content.viaplay.se/pc-se/universalLink/{universalLink}",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:userExperiments": {
+            "id": "userExperiments",
+            "href": "https://viaplay.mtg-api.com/experiments/users/{userId}",
+            "method": "GET",
+            "templated": true
+        },
+        "viaplay:tracking": {
+            "id": "tracking",
+            "href": "https://cronos-events.mtg-api.com/cronos-events/event/{brand}/pc-se/{clientVersion}/{sequenceNo}/{eventType}{?sessionId}",
+            "method": "POST",
+            "templated": true
+        },
+        "viaplay:categoryFilters": [
+            {
+                "title": "Alla serier",
+                "href": "https://content.viaplay.se/pc-se/serier/samtliga",
+                "templated": false,
+                "tagId": "0",
+                "type": "vod",
+                "active": true
+            },
+            {
+                "title": "Action",
+                "href": "https://content.viaplay.se/pc-se/serier/action",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99879986",
+                "type": "vod"
+            },
+            {
+                "title": "Animation",
+                "href": "https://content.viaplay.se/pc-se/serier/animation",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "22740520196",
+                "type": "vod"
+            },
+            {
+                "title": "Barnserier",
+                "href": "https://content.viaplay.se/pc-se/serier/barnserier",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            },
+            {
+                "title": "Dokumentärserier",
+                "href": "https://content.viaplay.se/pc-se/serier/dokumentarserier",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "127528063",
+                "categoryType": "documentary_series",
+                "type": "vod"
+            },
+            {
+                "title": "Drama",
+                "href": "https://content.viaplay.se/pc-se/serier/drama",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "98856440",
+                "type": "vod"
+            },
+            {
+                "title": "Komedi",
+                "href": "https://content.viaplay.se/pc-se/serier/komedi",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99368193",
+                "type": "vod"
+            },
+            {
+                "title": "Kriminaldrama",
+                "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99368197",
+                "type": "vod"
+            },
+            {
+                "title": "Livsstil",
+                "href": "https://content.viaplay.se/pc-se/serier/livsstil",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99368226",
+                "type": "vod"
+            },
+            {
+                "title": "Matlagning",
+                "href": "https://content.viaplay.se/pc-se/serier/matlagning",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "108071990",
+                "type": "vod"
+            },
+            {
+                "title": "Reality",
+                "href": "https://content.viaplay.se/pc-se/serier/reality",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "108071975",
+                "type": "vod"
+            },
+            {
+                "title": "Science fiction",
+                "href": "https://content.viaplay.se/pc-se/serier/science-fiction",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99368202",
+                "type": "vod"
+            },
+            {
+                "title": "Sportdokumentärer",
+                "href": "https://content.viaplay.se/pc-se/serier/sportdokumentarer",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99368449",
+                "type": "vod"
+            },
+            {
+                "title": "Sportmagasin",
+                "href": "https://content.viaplay.se/pc-se/serier/sportmagasin",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "141466664354",
+                "type": "vod"
+            },
+            {
+                "title": "Thriller",
+                "href": "https://content.viaplay.se/pc-se/serier/thriller",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99368200",
+                "type": "vod"
+            },
+            {
+                "title": "True crime",
+                "href": "https://content.viaplay.se/pc-se/serier/true-crime",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "184914984126",
+                "type": "vod"
+            },
+            {
+                "title": "Underhållning",
+                "href": "https://content.viaplay.se/pc-se/serier/underhallning",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "99879970",
+                "type": "vod"
+            },
+            {
+                "title": "Ungdomsserier",
+                "href": "https://content.viaplay.se/pc-se/serier/ungdomsserier",
+                "group": {
+                    "title": "Kategorier",
+                    "position": 1
+                },
+                "templated": false,
+                "tagId": "100815400432",
+                "type": "vod"
+            },
+            {
+                "title": "ABC Studios",
+                "href": "https://content.viaplay.se/pc-se/serier/abc-studios",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            },
+            {
+                "title": "FOX+",
+                "href": "https://content.viaplay.se/pc-se/serier/fox",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            },
+            {
+                "title": "Internationella serier",
+                "href": "https://content.viaplay.se/pc-se/serier/internationella-serier",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            },
+            {
+                "title": "Korta avsnitt",
+                "href": "https://content.viaplay.se/pc-se/serier/korta-avsnitt",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            },
+            {
+                "title": "National Geographic Now",
+                "href": "https://content.viaplay.se/pc-se/serier/national-geographic",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "182932008024",
+                "type": "vod"
+            },
+            {
+                "title": "STARZPLAY",
+                "href": "https://content.viaplay.se/pc-se/serier/starzplay",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            },
+            {
+                "title": "Svenska serier",
+                "href": "https://content.viaplay.se/pc-se/serier/svenska-serier",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "138969640347",
+                "type": "vod"
+            },
+            {
+                "title": "Viaplay Originals",
+                "href": "https://content.viaplay.se/pc-se/serier/viaplay-originals",
+                "group": {
+                    "title": "Teman",
+                    "position": 2
+                },
+                "templated": false,
+                "tagId": "0",
+                "type": "vod"
+            }
+        ],
+        "viaplay:sortings": [
+            {
+                "id": "most_popular",
+                "title": "Populära",
+                "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=most_popular",
+                "active": true
+            },
+            {
+                "id": "recently_added",
+                "title": "Senast tillagda",
+                "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=recently_added"
+            },
+            {
+                "id": "highest_ratings",
+                "title": "Högst betyg",
+                "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=highest_ratings"
+            }
+        ]
+    },
+    "_embedded": {
+        "viaplay:blocks": [
+            {
+                "ablocator": "6dd481845f73b596b7a95456c2d918e0",
+                "id": "6dd481845f73b596b7a95456c2d918e0",
+                "type": "list",
+                "client": {
+                    "styles": "landscape",
+                    "autoAppend": true,
+                    "module": "collection",
+                    "template": "collection"
+                },
+                "styles": [
+                    "landscape",
+                    "list",
+                    "grid"
+                ],
+                "title": "Alla serier sorterat på Populära",
+                "totalProductCount": 602,
+                "currentPage": 1,
+                "pageCount": 61,
+                "productsPerPage": 10,
+                "_embedded": {
+                    "viaplay:products": [
+                        {
+                            "type": "series",
+                            "publicPath": "2-12-man",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629897746-6e8ff8017c0b8dfe9565c876e1aeda06401568c9.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629897746-6e8ff8017c0b8dfe9565c876e1aeda06401568c9.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629897747-716cfb526cfb822c60948e24e03a9f1a27d4fa60.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629897747-716cfb526cfb822c60948e24e03a9f1a27d4fa60.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629906246-099bfc4a62690ed65360bc542295b216ff82bdff.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629897746-6e8ff8017c0b8dfe9565c876e1aeda06401568c9.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/445/500/1629897747-716cfb526cfb822c60948e24e03a9f1a27d4fa60.jpg{?width,height}"
+                                    }
+                                },
+                                "originalTitle": "Two and a Half Men",
+                                "people": {
+                                    "actors": [
+                                        "Amber Tamblyn",
+                                        "Angus T. Jones",
+                                        "Marin Hinkle",
+                                        "Ashton Kutcher",
+                                        "Holland Taylor",
+                                        "Melanie Lynskey",
+                                        "Conchata Ferrell",
+                                        "Jon Cryer",
+                                        "Charlie Sheen"
+                                    ],
+                                    "participants": [
+                                        "Amber Tamblyn",
+                                        "Angus T. Jones",
+                                        "Marin Hinkle",
+                                        "Ashton Kutcher",
+                                        "Holland Taylor",
+                                        "Melanie Lynskey",
+                                        "Conchata Ferrell",
+                                        "Jon Cryer",
+                                        "Charlie Sheen"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Melanie Lynskey",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "98191912029"
+                                        },
+                                        {
+                                            "name": "Amber Tamblyn",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95610407955"
+                                        },
+                                        {
+                                            "name": "Charlie Sheen",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "96485416412"
+                                        },
+                                        {
+                                            "name": "Marin Hinkle",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192615976402"
+                                        },
+                                        {
+                                            "name": "Holland Taylor",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192616999956"
+                                        },
+                                        {
+                                            "name": "Ashton Kutcher",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "100628520067"
+                                        },
+                                        {
+                                            "name": "Conchata Ferrell",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "199241768379"
+                                        },
+                                        {
+                                            "name": "Angus T. Jones",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "218410536155"
+                                        },
+                                        {
+                                            "name": "Jon Cryer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "162236455997"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "2 1/2 män",
+                                    "synopsis": "Ashton Kutcher spelar huvudrollen i den populära mastodontseriens tolfte och sista säsong. Men det kommer att bjudas på en hel del överraskningar innan festen är slut.  Ashton Kutcher spelar den sexiga, men socialt handikappade, IT-miljardären Walden som kämpar på med sina misslyckade kärleksrelationer. Alan Harper är fortfarande närig. Lillgrabben Jake, som inte är så liten längre, är fortfarande dum som ett spån. De dråpliga historierna avlöser varandra i den tolfte säsongen av den populära serien. Senare under den spektakulära säsongsfinalen dyker stjärnskådisen Maggie Lawson upp som gäst.",
+                                    "season": {
+                                        "title": "2 1/2 män",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-09-20T22:00:00.000Z",
+                                                "end": "2022-09-30T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "seasons": 12,
+                                    "seriesGuid": "series-two-and-a-half-men"
+                                },
+                                "synopsis": "Charlie har mycket pengar på banken, ett hus på stranden och bra flyt med damerna. Hans avslappnade tillvaro störs dock när hans bror, Alan, som hotas av skilsmässa, och brorson, Jake, flyttar in.",
+                                "imdb": {
+                                    "id": "tt0369179",
+                                    "rating": "7.0",
+                                    "votes": "248 377",
+                                    "url": "http://www.imdb.com/title/tt0369179?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2003
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2021-09-20T22:00:00.000Z",
+                                    "end": "2022-09-30T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2021-09-20T22:00:00.000Z",
+                                        "end": "2022-09-30T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-two-and-a-half-men",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "2 1/2 män",
+                                    "href": "https://content.viaplay.se/pc-se/serier/2-12-man?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "2 1/2 män",
+                                    "href": "https://content.viaplay.se/pc-se/serier/2-12-man"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "2 1/2 män",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/2-12-man"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Komedi",
+                                        "tagId": "99368193",
+                                        "href": "https://content.viaplay.se/pc-se/serier/komedi"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "chicago-fire",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/220/596/1631631915-7fab023a05827badc0d7555e6ae309f3dc2eeb06.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/220/596/1631631915-7fab023a05827badc0d7555e6ae309f3dc2eeb06.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/219/620/1631631918-4226994e3238110a4a4247fe729afbc58662bba2.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/219/620/1631631918-4226994e3238110a4a4247fe729afbc58662bba2.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/781/892/1630313023-cef78e110ea94f6aee1759611717256d9ebf5e2f.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/220/596/1631631915-7fab023a05827badc0d7555e6ae309f3dc2eeb06.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/219/620/1631631918-4226994e3238110a4a4247fe729afbc58662bba2.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Jesse Spencer",
+                                        "Taylor Kinney",
+                                        "Yuri Sardarov",
+                                        "Christian Stoltenberg",
+                                        "Eamonn Walker",
+                                        "David Eigenberg",
+                                        "Monica Raymund",
+                                        "Joe Minoso",
+                                        "Christian Stolte",
+                                        "Kara Killmer",
+                                        "Miranda Rae Mayo",
+                                        "Annie Ilonzeh",
+                                        "Alberto Rosende",
+                                        "Dora Madison",
+                                        "Steven R. McQueen",
+                                        "Charlie Barnett",
+                                        "Lauren German",
+                                        "Teri Reeves"
+                                    ],
+                                    "participants": [
+                                        "Jesse Spencer",
+                                        "Taylor Kinney",
+                                        "Yuri Sardarov",
+                                        "Christian Stoltenberg",
+                                        "Eamonn Walker",
+                                        "David Eigenberg",
+                                        "Monica Raymund",
+                                        "Joe Minoso",
+                                        "Christian Stolte",
+                                        "Kara Killmer",
+                                        "Miranda Rae Mayo",
+                                        "Annie Ilonzeh",
+                                        "Alberto Rosende",
+                                        "Dora Madison",
+                                        "Steven R. McQueen",
+                                        "Charlie Barnett",
+                                        "Lauren German",
+                                        "Teri Reeves"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Teri Reeves",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200282664012"
+                                        },
+                                        {
+                                            "name": "Lauren German",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "105385000042"
+                                        },
+                                        {
+                                            "name": "Charlie Barnett",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104936488109"
+                                        },
+                                        {
+                                            "name": "Dora Madison",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200282664001"
+                                        },
+                                        {
+                                            "name": "Alberto Rosende",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200282663999"
+                                        },
+                                        {
+                                            "name": "Miranda Rae Mayo",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200282663995"
+                                        },
+                                        {
+                                            "name": "Kara Killmer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200282663993"
+                                        },
+                                        {
+                                            "name": "Steven R. McQueen",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104937000082"
+                                        },
+                                        {
+                                            "name": "Annie Ilonzeh",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "103793704219"
+                                        },
+                                        {
+                                            "name": "Christian Stolte",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200282663991"
+                                        },
+                                        {
+                                            "name": "Joe Minoso",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "102041128373"
+                                        },
+                                        {
+                                            "name": "David Eigenberg",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "102041128370"
+                                        },
+                                        {
+                                            "name": "Monica Raymund",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97610792036"
+                                        },
+                                        {
+                                            "name": "Eamonn Walker",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "102041128375"
+                                        },
+                                        {
+                                            "name": "Jesse Spencer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101664296439"
+                                        },
+                                        {
+                                            "name": "Yuri Sardarov",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101664296437"
+                                        },
+                                        {
+                                            "name": "Taylor Kinney",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101664296435"
+                                        },
+                                        {
+                                            "name": "Christian Stoltenberg",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "102041128377"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "Chicago Fire",
+                                    "synopsis": "För de modiga brandmännen på Brandstation 51 kommer alltid offrens säkerhet först. Följ dem i deras dagliga kamp fylld av dramatik, spänning och interna stridigheter.",
+                                    "season": {
+                                        "title": "Chicago Fire",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-09-23T18:00:00.000Z",
+                                                "end": "2023-09-22T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "availabilityInfo": "TORS 20.00",
+                                    "seasons": 10,
+                                    "seriesGuid": "series-chicago-fire"
+                                },
+                                "synopsis": "För de modiga brandmännen på Brandstation 51 kommer alltid offrens säkerhet först. Följ dem i deras dagliga kamp fylld av dramatik, spänning och interna stridigheter.",
+                                "imdb": {
+                                    "id": "tt2261391",
+                                    "rating": "8.0",
+                                    "votes": "44 109",
+                                    "url": "http://www.imdb.com/title/tt2261391?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2012
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2018-10-26T18:00:00.000Z",
+                                    "end": "2023-09-22T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2018-10-26T18:00:00.000Z",
+                                        "end": "2023-09-22T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-chicago-fire",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "Chicago Fire",
+                                    "href": "https://content.viaplay.se/pc-se/serier/chicago-fire?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "Chicago Fire",
+                                    "href": "https://content.viaplay.se/pc-se/serier/chicago-fire"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "Chicago Fire",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/chicago-fire"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    },
+                                    {
+                                        "title": "Action",
+                                        "tagId": "99879986",
+                                        "href": "https://content.viaplay.se/pc-se/serier/action"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "det-som-goms-i-sno",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278408-a9e3c5b7285940cc83615175c94c5768a12f6f23.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278408-a9e3c5b7285940cc83615175c94c5768a12f6f23.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278408-a613f4437dba8157c2e16259045b6453327d8151.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278408-a613f4437dba8157c2e16259045b6453327d8151.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278401-dbd6489adc4fb0b12a0afec02d0e0c1495e76df0.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278408-a9e3c5b7285940cc83615175c94c5768a12f6f23.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/583/524/1629278408-a613f4437dba8157c2e16259045b6453327d8151.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Erik Johansson",
+                                        "Johan Ulveson",
+                                        "Johan Berg",
+                                        "Ia Langhammer",
+                                        "Maria Sundbom",
+                                        "Peter Carlberg",
+                                        "Peter Gardiner",
+                                        "Ville Virtanen",
+                                        "Alexandra Alegren",
+                                        "Ingela Olsson",
+                                        "Robert Gustafsson",
+                                        "Samuel Fröler",
+                                        "Letita Ward",
+                                        "Thomas W. Gabrielsson",
+                                        "Inez Dahl Torhaug",
+                                        "Christopher Wagelin",
+                                        "Julia Marko-Nord",
+                                        "Ala Riani",
+                                        "Tyra Olin",
+                                        "Zacharias Boustedt",
+                                        "Celie Sparre",
+                                        "Louise Peterhoff",
+                                        "Stefan Gödicke"
+                                    ],
+                                    "directors": [
+                                        "Kjell-Åke Andersson",
+                                        "Lisa Farzaneh",
+                                        "Daniel di Grado",
+                                        "Camilla Strøm Henriksen",
+                                        "Kristian Petri"
+                                    ],
+                                    "participants": [
+                                        "Erik Johansson",
+                                        "Johan Ulveson",
+                                        "Johan Berg",
+                                        "Ia Langhammer",
+                                        "Maria Sundbom",
+                                        "Peter Carlberg",
+                                        "Peter Gardiner",
+                                        "Ville Virtanen",
+                                        "Alexandra Alegren",
+                                        "Ingela Olsson",
+                                        "Robert Gustafsson",
+                                        "Samuel Fröler",
+                                        "Letita Ward",
+                                        "Thomas W. Gabrielsson",
+                                        "Inez Dahl Torhaug",
+                                        "Christopher Wagelin",
+                                        "Julia Marko-Nord",
+                                        "Ala Riani",
+                                        "Tyra Olin",
+                                        "Zacharias Boustedt",
+                                        "Celie Sparre",
+                                        "Louise Peterhoff",
+                                        "Stefan Gödicke"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Erik Johansson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "114914344331"
+                                        },
+                                        {
+                                            "name": "Thomas W. Gabrielsson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "143150120407"
+                                        },
+                                        {
+                                            "name": "Ingela Olsson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "143150120402"
+                                        },
+                                        {
+                                            "name": "Johan Ulveson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97307176200"
+                                        },
+                                        {
+                                            "name": "Ia Langhammer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "225888296380"
+                                        },
+                                        {
+                                            "name": "Christopher Wagelin",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "124463144300"
+                                        },
+                                        {
+                                            "name": "Ville Virtanen",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "120209448029"
+                                        },
+                                        {
+                                            "name": "Samuel Fröler",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97568808409"
+                                        },
+                                        {
+                                            "name": "Daniel di Grado",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "95103016109"
+                                        },
+                                        {
+                                            "name": "Lisa Farzaneh",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "189574184450"
+                                        },
+                                        {
+                                            "name": "Stefan Gödicke",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113044520337"
+                                        },
+                                        {
+                                            "name": "Robert Gustafsson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104460327975"
+                                        },
+                                        {
+                                            "name": "Peter Gardiner",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "103735336273"
+                                        },
+                                        {
+                                            "name": "Peter Carlberg",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "143150120405"
+                                        },
+                                        {
+                                            "name": "Maria Sundbom",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "189574184442"
+                                        },
+                                        {
+                                            "name": "Kristian Petri",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "189575719953"
+                                        },
+                                        {
+                                            "name": "Louise Peterhoff",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "143150120399"
+                                        },
+                                        {
+                                            "name": "Celie Sparre",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "96036392036"
+                                        },
+                                        {
+                                            "name": "Kjell-Åke Andersson",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "189574184448"
+                                        },
+                                        {
+                                            "name": "Ala Riani",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "189574184444"
+                                        },
+                                        {
+                                            "name": "Johan Berg",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "189574184446"
+                                        },
+                                        {
+                                            "name": "Alexandra Alegren",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "131655720336"
+                                        },
+                                        {
+                                            "name": "Julia Marko-Nord",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "224821799965"
+                                        },
+                                        {
+                                            "name": "Inez Dahl Torhaug",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "224821799963"
+                                        },
+                                        {
+                                            "name": "Letita Ward",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "224821799961"
+                                        },
+                                        {
+                                            "name": "Camilla Strøm Henriksen",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "113935912424"
+                                        },
+                                        {
+                                            "name": "Zacharias Boustedt",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "143150120411"
+                                        },
+                                        {
+                                            "name": "Tyra Olin",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "143150120409"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "Det som göms i snö",
+                                    "synopsis": "Peter Wendel, Kalla fall-gruppens ledare i Stockholm, kommer en rättshärva på spåren och anar att en oskyldig man dömts för mord. Men utredningen försvåras av Wendels privatliv och instabila psyke.",
+                                    "season": {
+                                        "title": "Det som göms i snö",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-09-18T22:01:00.000Z",
+                                                "end": "2031-09-18T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "seasons": 2,
+                                    "seriesGuid": "series-det-som-goms-i-sno"
+                                },
+                                "synopsis": "Peter Wendels kalla fall-grupp är underbemannade, samtidigt som Peter mår dåligt efter att ha accepterat sin brors självmord. Men allting kommer förändras när en kollega och vän plötsligt hittas mördad.",
+                                "imdb": {
+                                    "id": "tt8066878",
+                                    "rating": "7.4",
+                                    "votes": "1 821",
+                                    "url": "http://www.imdb.com/title/tt8066878?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2018
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2018-11-22T23:00:00.000Z",
+                                    "end": "2031-09-18T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2018-11-22T23:00:00.000Z",
+                                        "end": "2031-09-18T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [
+                                    "originals"
+                                ],
+                                "guid": "series-det-som-goms-i-sno",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "Det som göms i snö",
+                                    "href": "https://content.viaplay.se/pc-se/serier/det-som-goms-i-sno?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "Det som göms i snö",
+                                    "href": "https://content.viaplay.se/pc-se/serier/det-som-goms-i-sno"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "Det som göms i snö",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/det-som-goms-i-sno"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Kriminaldrama",
+                                        "tagId": "99368197",
+                                        "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                                    },
+                                    {
+                                        "title": "Thriller",
+                                        "tagId": "99368200",
+                                        "href": "https://content.viaplay.se/pc-se/serier/thriller"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                },
+                                "viaplay:trailerStream": {
+                                    "href": "https://play.viaplay.se/api/trailer/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-3715-1E75-92CC-DAF3-8E1D-R&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-3715-1E75-92CC-DAF3-8E1D-R%3FparentProgramGuid%3Dseries-det-som-goms-i-sno&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-3715-1E75-92CC-DAF3-8E1D-R%3FparentProgramGuid%3Dseries-det-som-goms-i-sno&sectionPath=%2Fserier&defaultAvailabilityContext=svod",
+                                    "templated": true
+                                },
+                                "viaplay:trailerSelf": {
+                                    "title": "Det som göms i snö",
+                                    "href": "https://content.viaplay.se/pc-se/byguid/10-5240-3715-1E75-92CC-DAF3-8E1D-R?parentProgramGuid=series-det-som-goms-i-sno&partial=true"
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "chicago-p.d.",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/186/412/1631632118-226e77c4a4ab7a960899321875dfabaf8b80469c.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/186/412/1631632118-226e77c4a4ab7a960899321875dfabaf8b80469c.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/186/412/1631632120-94e94893ea21e986cbbf0531eb2ce06e93009c7e.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/186/412/1631632120-94e94893ea21e986cbbf0531eb2ce06e93009c7e.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/786/772/1630313862-9e8beadc1c898bfc558acd35971f6437978feecb.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/186/412/1631632118-226e77c4a4ab7a960899321875dfabaf8b80469c.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/186/412/1631632120-94e94893ea21e986cbbf0531eb2ce06e93009c7e.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Jason Beghe",
+                                        "Patrick Flueger",
+                                        "Jesse Lee Soffer",
+                                        "LaRoyce Hawkins",
+                                        "Patrick John Flueger",
+                                        "Amy Morton",
+                                        "Jesse Lee Soffer",
+                                        "Tracy Spiridakos",
+                                        "Marina Squerciati",
+                                        "Lisseth Chavez",
+                                        "Jon Seda",
+                                        "Elias Koteas",
+                                        "Sophia Bush",
+                                        "Brian Geraghty",
+                                        "Archie Kao"
+                                    ],
+                                    "participants": [
+                                        "Jason Beghe",
+                                        "Patrick Flueger",
+                                        "Jesse Lee Soffer",
+                                        "LaRoyce Hawkins",
+                                        "Patrick John Flueger",
+                                        "Amy Morton",
+                                        "Jesse Lee Soffer",
+                                        "Tracy Spiridakos",
+                                        "Marina Squerciati",
+                                        "Lisseth Chavez",
+                                        "Jon Seda",
+                                        "Elias Koteas",
+                                        "Sophia Bush",
+                                        "Brian Geraghty",
+                                        "Archie Kao"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Jesse Lee Soffer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200327208295"
+                                        },
+                                        {
+                                            "name": "Jon Seda",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "199242280278"
+                                        },
+                                        {
+                                            "name": "Sophia Bush",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "164865576324"
+                                        },
+                                        {
+                                            "name": "LaRoyce Hawkins",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "157375015966"
+                                        },
+                                        {
+                                            "name": "Amy Morton",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113317416156"
+                                        },
+                                        {
+                                            "name": "Elias Koteas",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101579304228"
+                                        },
+                                        {
+                                            "name": "Brian Geraghty",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97011240291"
+                                        },
+                                        {
+                                            "name": "Patrick Flueger",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200327208293"
+                                        },
+                                        {
+                                            "name": "Marina Squerciati",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "157375015964"
+                                        },
+                                        {
+                                            "name": "Jason Beghe",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101760552038"
+                                        },
+                                        {
+                                            "name": "Archie Kao",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200327208420"
+                                        },
+                                        {
+                                            "name": "Lisseth Chavez",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200327208414"
+                                        },
+                                        {
+                                            "name": "Tracy Spiridakos",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "200327208297"
+                                        },
+                                        {
+                                            "name": "Jesse Lee Soffer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101760552045"
+                                        },
+                                        {
+                                            "name": "Patrick John Flueger",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "101760552040"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "Chicago P.D.",
+                                    "synopsis": "Polisen vid det 21:e distriktet i Chicago sätter sina liv på spel för att tjäna samhället. Arbetet innebär förpliktelser och konsekvenser som sträcker sig långt bortom arbetsplatsens fyra väggar.",
+                                    "season": {
+                                        "title": "Chicago P.D.",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-09-23T18:00:00.000Z",
+                                                "end": "2023-09-22T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "availabilityInfo": "TORS 20.00",
+                                    "seasons": 9,
+                                    "seriesGuid": "series-chicago-p.d."
+                                },
+                                "synopsis": "Polisen vid det 21:e distriktet i Chicago sätter sina liv på spel för att tjäna samhället. Arbetet innebär förpliktelser och konsekvenser som sträcker sig långt bortom arbetsplatsens fyra väggar.",
+                                "imdb": {
+                                    "id": "tt2805096",
+                                    "rating": "8.1",
+                                    "votes": "31 158",
+                                    "url": "http://www.imdb.com/title/tt2805096?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2013
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2018-10-30T19:00:00.000Z",
+                                    "end": "2023-09-22T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2018-10-30T19:00:00.000Z",
+                                        "end": "2023-09-22T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-chicago-p.d.",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "Chicago P.D.",
+                                    "href": "https://content.viaplay.se/pc-se/serier/chicago-p.d.?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "Chicago P.D.",
+                                    "href": "https://content.viaplay.se/pc-se/serier/chicago-p.d."
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "Chicago P.D.",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/chicago-p.d."
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    },
+                                    {
+                                        "title": "Kriminaldrama",
+                                        "tagId": "99368197",
+                                        "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "greys-anatomy",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988235-2e6920a94b2b30019f47c286074c93ecdc0407d0.jpg?width=199&height=298&template=abcstudios",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988235-2e6920a94b2b30019f47c286074c93ecdc0407d0.jpg{?width,height}&template=abcstudios"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/440/976/1603974960-2dad0c0eef922590320e519ed36a633af15f49a6.jpg?width=960&height=540&template=abcstudios",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/440/976/1603974960-2dad0c0eef922590320e519ed36a633af15f49a6.jpg{?width,height}&template=abcstudios"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988205-4bc81439d53bcc4a66de4b8c67597cca536d2cc6.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988235-2e6920a94b2b30019f47c286074c93ecdc0407d0.jpg{?width,height}&template=abcstudios"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/440/976/1603974960-2dad0c0eef922590320e519ed36a633af15f49a6.jpg{?width,height}&template=abcstudios"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Eric Dane",
+                                        "Greg Germann",
+                                        "Jake Borelli",
+                                        "Sara Ramirez",
+                                        "T.R. Knight",
+                                        "Chris Carmack",
+                                        "Ellen Pompeo",
+                                        "James Pickens Jr.",
+                                        "Jason George",
+                                        "Kelly McCreary",
+                                        "Kevin McKidd",
+                                        "Sarah Drew",
+                                        "Chyler Leigh",
+                                        "Justin Chambers",
+                                        "Martin Henderson",
+                                        "Sandra Oh",
+                                        "Camilla Luddington",
+                                        "Chandra Wilson",
+                                        "Giacomo Gianniotti",
+                                        "Jerrika Hinton",
+                                        "Jessica Capshaw",
+                                        "Patrick Dempsey",
+                                        "Richard Flood",
+                                        "Caterina Scorsone",
+                                        "Katherine Heigl",
+                                        "Anthony C. Hill",
+                                        "Anthony Hill",
+                                        "Jesse Williams",
+                                        "Kim Raver",
+                                        "Gaius Charles",
+                                        "Brooke Smith",
+                                        "Tessa Ferrer"
+                                    ],
+                                    "directors": [
+                                        "Debbie Allen"
+                                    ],
+                                    "participants": [
+                                        "Eric Dane",
+                                        "Greg Germann",
+                                        "Jake Borelli",
+                                        "Sara Ramirez",
+                                        "T.R. Knight",
+                                        "Chris Carmack",
+                                        "Ellen Pompeo",
+                                        "James Pickens Jr.",
+                                        "Jason George",
+                                        "Kelly McCreary",
+                                        "Kevin McKidd",
+                                        "Sarah Drew",
+                                        "Chyler Leigh",
+                                        "Justin Chambers",
+                                        "Martin Henderson",
+                                        "Sandra Oh",
+                                        "Camilla Luddington",
+                                        "Chandra Wilson",
+                                        "Giacomo Gianniotti",
+                                        "Jerrika Hinton",
+                                        "Jessica Capshaw",
+                                        "Patrick Dempsey",
+                                        "Richard Flood",
+                                        "Caterina Scorsone",
+                                        "Katherine Heigl",
+                                        "Anthony C. Hill",
+                                        "Anthony Hill",
+                                        "Jesse Williams",
+                                        "Kim Raver",
+                                        "Gaius Charles",
+                                        "Brooke Smith",
+                                        "Tessa Ferrer"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Jessica Capshaw",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008397"
+                                        },
+                                        {
+                                            "name": "Patrick Dempsey",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "98700840119"
+                                        },
+                                        {
+                                            "name": "Martin Henderson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "96146472339"
+                                        },
+                                        {
+                                            "name": "James Pickens Jr.",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "98700840111"
+                                        },
+                                        {
+                                            "name": "T.R. Knight",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104689703975"
+                                        },
+                                        {
+                                            "name": "Chris Carmack",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192553512212"
+                                        },
+                                        {
+                                            "name": "Kim Raver",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104690728116"
+                                        },
+                                        {
+                                            "name": "Debbie Allen",
+                                            "groups": [
+                                                "Director",
+                                                "Executive producer"
+                                            ],
+                                            "personId": "209650728392"
+                                        },
+                                        {
+                                            "name": "Richard Flood",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "142380584064"
+                                        },
+                                        {
+                                            "name": "Brooke Smith",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "195766312314"
+                                        },
+                                        {
+                                            "name": "Jake Borelli",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "208474152091"
+                                        },
+                                        {
+                                            "name": "Greg Germann",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "133156392085"
+                                        },
+                                        {
+                                            "name": "Giacomo Gianniotti",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008399"
+                                        },
+                                        {
+                                            "name": "Anthony C. Hill",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "209650728371"
+                                        },
+                                        {
+                                            "name": "Chandra Wilson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "98700840117"
+                                        },
+                                        {
+                                            "name": "Justin Chambers",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "98700840113"
+                                        },
+                                        {
+                                            "name": "Eric Dane",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97608744314"
+                                        },
+                                        {
+                                            "name": "Jason George",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116373032386"
+                                        },
+                                        {
+                                            "name": "Sarah Drew",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008392"
+                                        },
+                                        {
+                                            "name": "Jesse Williams",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008389"
+                                        },
+                                        {
+                                            "name": "Katherine Heigl",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "100465704221"
+                                        },
+                                        {
+                                            "name": "Sandra Oh",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "112344104235"
+                                        },
+                                        {
+                                            "name": "Chyler Leigh",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "128666664037"
+                                        },
+                                        {
+                                            "name": "Ellen Pompeo",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "98700840115"
+                                        },
+                                        {
+                                            "name": "Sara Ramirez",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "209650728376"
+                                        },
+                                        {
+                                            "name": "Jerrika Hinton",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "118287400169"
+                                        },
+                                        {
+                                            "name": "Caterina Scorsone",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008403"
+                                        },
+                                        {
+                                            "name": "Kevin McKidd",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008405"
+                                        },
+                                        {
+                                            "name": "Camilla Luddington",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008395"
+                                        },
+                                        {
+                                            "name": "Kelly McCreary",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "116372008401"
+                                        },
+                                        {
+                                            "name": "Tessa Ferrer",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "199243304262"
+                                        },
+                                        {
+                                            "name": "Gaius Charles",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "163489832406"
+                                        },
+                                        {
+                                            "name": "Anthony Hill",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "209650728399"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "12",
+                                "series": {
+                                    "title": "Grey's Anatomy",
+                                    "synopsis": "Flerfaldigt prisbelönad och högt rankad dramaserie. Läkarna på Seattle Grace Hospital hanterar dagligen liv och död medan de finner tröst, vänskap och romantik hos varandra.",
+                                    "season": {
+                                        "title": "Grey's Anatomy",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2020-11-04T23:00:00.000Z",
+                                                "end": "2021-12-31T23:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "seasons": 16,
+                                    "seriesGuid": "series-greys-anatomy"
+                                },
+                                "synopsis": "Flerfaldigt prisbelönad och högt rankad dramaserie. Läkarna på Seattle Grace Hospital hanterar dagligen liv och död medan de finner tröst, vänskap och romantik hos varandra.",
+                                "imdb": {
+                                    "id": "tt0413573",
+                                    "rating": "7.5",
+                                    "votes": "270 631",
+                                    "url": "http://www.imdb.com/title/tt0413573?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2005
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2020-05-04T22:00:00.000Z",
+                                    "end": "2021-12-31T23:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2020-05-04T22:00:00.000Z",
+                                        "end": "2021-12-31T23:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-greys-anatomy",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "Grey's Anatomy",
+                                    "href": "https://content.viaplay.se/pc-se/serier/greys-anatomy?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "Grey's Anatomy",
+                                    "href": "https://content.viaplay.se/pc-se/serier/greys-anatomy"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "Grey's Anatomy",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/greys-anatomy"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    },
+                                    {
+                                        "title": "Romantik",
+                                        "tagId": "99368206",
+                                        "href": "https://content.viaplay.se/pc-se/film/romantik"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "chicago-med",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/307/508/1631631738-52f6dc6bf2fcbd86323c3b9d25e769cda9babc75.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/307/508/1631631738-52f6dc6bf2fcbd86323c3b9d25e769cda9babc75.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/307/1008/1631631740-95c8694c8ef7b836bcfd15925fa2af020dab4ca5.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/307/1008/1631631740-95c8694c8ef7b836bcfd15925fa2af020dab4ca5.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/781/892/1630313430-ec55c3764d4d2d9533b2d191b077c6b2d04c727f.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/307/508/1631631738-52f6dc6bf2fcbd86323c3b9d25e769cda9babc75.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/307/1008/1631631740-95c8694c8ef7b836bcfd15925fa2af020dab4ca5.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Nick Gehlfuss",
+                                        "Yaya DaCosta",
+                                        "Torrey DeVitto",
+                                        "Brian Tee",
+                                        "S. Epatha Merkerson",
+                                        "S. Epatha Merkerson",
+                                        "Marlyne Barrett",
+                                        "Oliver Platt",
+                                        "Colin Donnell",
+                                        "Ashland Thomas",
+                                        "Rachel DiPillo",
+                                        "Dominic Rains",
+                                        "Norma Kuhling"
+                                    ],
+                                    "participants": [
+                                        "Nick Gehlfuss",
+                                        "Yaya DaCosta",
+                                        "Torrey DeVitto",
+                                        "Brian Tee",
+                                        "S. Epatha Merkerson",
+                                        "S. Epatha Merkerson",
+                                        "Marlyne Barrett",
+                                        "Oliver Platt",
+                                        "Colin Donnell",
+                                        "Ashland Thomas",
+                                        "Rachel DiPillo",
+                                        "Dominic Rains",
+                                        "Norma Kuhling"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Norma Kuhling",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "197225512242"
+                                        },
+                                        {
+                                            "name": "Colin Donnell",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640356"
+                                        },
+                                        {
+                                            "name": "Rachel DiPillo",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640354"
+                                        },
+                                        {
+                                            "name": "Dominic Rains",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "103830056124"
+                                        },
+                                        {
+                                            "name": "Oliver Platt",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "103818791990"
+                                        },
+                                        {
+                                            "name": "S. Epatha Merkerson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192560168170"
+                                        },
+                                        {
+                                            "name": "Brian Tee",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640358"
+                                        },
+                                        {
+                                            "name": "Marlyne Barrett",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640350"
+                                        },
+                                        {
+                                            "name": "Torrey DeVitto",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640348"
+                                        },
+                                        {
+                                            "name": "Yaya DaCosta",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104937000037"
+                                        },
+                                        {
+                                            "name": "Nick Gehlfuss",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640346"
+                                        },
+                                        {
+                                            "name": "Ashland Thomas",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640360"
+                                        },
+                                        {
+                                            "name": "S. Epatha Merkerson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113049640362"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "12",
+                                "series": {
+                                    "title": "Chicago Med",
+                                    "synopsis": "Få en känsloladdad inblick i det dagliga arbetet på det pulserande sjukhuset i Chicago. Här tampas den modiga och heroiska personalen med svåra fall, relationen till patienterna och till varandra.",
+                                    "season": {
+                                        "title": "Chicago Med",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-09-23T18:00:00.000Z",
+                                                "end": "2023-09-22T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "availabilityInfo": "TORS 20.00",
+                                    "seasons": 7,
+                                    "seriesGuid": "series-chicago-med"
+                                },
+                                "synopsis": "Få en känsloladdad inblick i det dagliga arbetet på det pulserande sjukhuset i Chicago. Här tampas den modiga och heroiska personalen med svåra fall, relationen till patienterna och till varandra.",
+                                "imdb": {
+                                    "id": "tt4655480",
+                                    "rating": "7.6",
+                                    "votes": "18 369",
+                                    "url": "http://www.imdb.com/title/tt4655480?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2015
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2018-10-31T23:00:00.000Z",
+                                    "end": "2023-09-22T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2018-10-31T23:00:00.000Z",
+                                        "end": "2023-09-22T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-chicago-med",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "Chicago Med",
+                                    "href": "https://content.viaplay.se/pc-se/serier/chicago-med?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "Chicago Med",
+                                    "href": "https://content.viaplay.se/pc-se/serier/chicago-med"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "Chicago Med",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/chicago-med"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "good-doctor-the",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/405/232/1631531897-e87a214b3a511a6e0e1428e823c2e44674a46c8e.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/405/232/1631531897-e87a214b3a511a6e0e1428e823c2e44674a46c8e.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/404/756/1631531898-a8e7c9fb7d9c152de3b92c847f89d6e45a1f1c82.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/404/756/1631531898-a8e7c9fb7d9c152de3b92c847f89d6e45a1f1c82.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/626/292/1557148047-9b544cd64342cd38a1e5c7b88994f22b4b46e2e4.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/405/232/1631531897-e87a214b3a511a6e0e1428e823c2e44674a46c8e.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/404/756/1631531898-a8e7c9fb7d9c152de3b92c847f89d6e45a1f1c82.jpg{?width,height}"
+                                    }
+                                },
+                                "originalTitle": "Good Doctor, The",
+                                "people": {
+                                    "actors": [
+                                        "Freddie Highmore",
+                                        "Nicholas Gonzalez",
+                                        "Antonia Thomas",
+                                        "Tamlyn Tomita",
+                                        "Hill Harper",
+                                        "Richard Schiff",
+                                        "Christina j Chang",
+                                        "Christina Chang",
+                                        "Christina Chang",
+                                        "Fiona Gubelmann",
+                                        "Will Yun Lee",
+                                        "Paige Spara",
+                                        "Jasika Nicole",
+                                        "Chuku Modu",
+                                        "Beau Garrett"
+                                    ],
+                                    "participants": [
+                                        "Freddie Highmore",
+                                        "Nicholas Gonzalez",
+                                        "Antonia Thomas",
+                                        "Tamlyn Tomita",
+                                        "Hill Harper",
+                                        "Richard Schiff",
+                                        "Christina j Chang",
+                                        "Christina Chang",
+                                        "Christina Chang",
+                                        "Fiona Gubelmann",
+                                        "Will Yun Lee",
+                                        "Paige Spara",
+                                        "Jasika Nicole",
+                                        "Chuku Modu",
+                                        "Beau Garrett"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Beau Garrett",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95143976448"
+                                        },
+                                        {
+                                            "name": "Chuku Modu",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "191203880218"
+                                        },
+                                        {
+                                            "name": "Jasika Nicole",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "191203880216"
+                                        },
+                                        {
+                                            "name": "Paige Spara",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "191203880214"
+                                        },
+                                        {
+                                            "name": "Will Yun Lee",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "191203880212"
+                                        },
+                                        {
+                                            "name": "Fiona Gubelmann",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104907816246"
+                                        },
+                                        {
+                                            "name": "Christina Chang",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "191203880209"
+                                        },
+                                        {
+                                            "name": "Christina j Chang",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "190974504172"
+                                        },
+                                        {
+                                            "name": "Richard Schiff",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97604135986"
+                                        },
+                                        {
+                                            "name": "Hill Harper",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "103348264293"
+                                        },
+                                        {
+                                            "name": "Tamlyn Tomita",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95143976446"
+                                        },
+                                        {
+                                            "name": "Nicholas Gonzalez",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95143976442"
+                                        },
+                                        {
+                                            "name": "Freddie Highmore",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95143976440"
+                                        },
+                                        {
+                                            "name": "Antonia Thomas",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95143976438"
+                                        },
+                                        {
+                                            "name": "Christina Chang",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "103348264295"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "12",
+                                "series": {
+                                    "title": "The Good Doctor",
+                                    "synopsis": "Kan en person som saknar förmågan att relatera till människor faktiskt rädda liv? En ung kirurg med svårigheter att kommunicera läker oron hos sina patienter genom sin smått övernaturliga kunskap.",
+                                    "season": {
+                                        "title": "The Good Doctor",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-09-28T18:00:00.000Z",
+                                                "end": "2025-09-27T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "availabilityInfo": "TIS 20.00",
+                                    "seasons": 5,
+                                    "seriesGuid": "series-good-doctor-the"
+                                },
+                                "synopsis": "Kan en person som saknar förmågan att relatera till människor faktiskt rädda liv? En ung kirurg med svårigheter att kommunicera läker oron hos sina patienter genom sin smått övernaturliga kunskap.",
+                                "imdb": {
+                                    "id": "tt6470478",
+                                    "rating": "8.1",
+                                    "votes": "76 056",
+                                    "url": "http://www.imdb.com/title/tt6470478?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2017
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2018-04-10T22:00:00.000Z",
+                                    "end": "2025-09-27T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2018-04-10T22:00:00.000Z",
+                                        "end": "2025-09-27T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-good-doctor-the",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "The Good Doctor",
+                                    "href": "https://content.viaplay.se/pc-se/serier/good-doctor-the?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "The Good Doctor",
+                                    "href": "https://content.viaplay.se/pc-se/serier/good-doctor-the"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "The Good Doctor",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/good-doctor-the"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "red-election",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268309-258befcd888f93817895f1f7cddd2caab5e47548.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268309-258befcd888f93817895f1f7cddd2caab5e47548.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268311-593c619cf7c19a1635ece4b276bf6c284eca983d.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268311-593c619cf7c19a1635ece4b276bf6c284eca983d.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1632223258-815bcbf066263dde6d64525d5c52685ff9778b42.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268309-258befcd888f93817895f1f7cddd2caab5e47548.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268311-593c619cf7c19a1635ece4b276bf6c284eca983d.jpg{?width,height}"
+                                    },
+                                    "coverart11": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/882/676/1631268312-4b2d84f3120f7ddd1c7409c4c9f9ce9b28011bc0.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Victoria Carmen Sonne",
+                                        "Lydia Leonard",
+                                        "James D’Arcy",
+                                        "Stephen Dillane",
+                                        "Rori Hawthorn",
+                                        "Ian Kenny",
+                                        "Goran Kostic",
+                                        "Stephen Hogan",
+                                        "Amy Shiels",
+                                        "Monika Gossmann"
+                                    ],
+                                    "directors": [
+                                        "Jill Robertson",
+                                        "Paul Murphy",
+                                        "Declan Recks"
+                                    ],
+                                    "participants": [
+                                        "Victoria Carmen Sonne",
+                                        "Lydia Leonard",
+                                        "James D’Arcy",
+                                        "Stephen Dillane",
+                                        "Rori Hawthorn",
+                                        "Ian Kenny",
+                                        "Goran Kostic",
+                                        "Stephen Hogan",
+                                        "Amy Shiels",
+                                        "Monika Gossmann"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Paul Murphy",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "216868903976"
+                                        },
+                                        {
+                                            "name": "Stephen Hogan",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "231817768303"
+                                        },
+                                        {
+                                            "name": "Stephen Dillane",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "139854376310"
+                                        },
+                                        {
+                                            "name": "James D’Arcy",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "126225448256"
+                                        },
+                                        {
+                                            "name": "Ian Kenny",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "205866024235"
+                                        },
+                                        {
+                                            "name": "Victoria Carmen Sonne",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "228581928149"
+                                        },
+                                        {
+                                            "name": "Monika Gossmann",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "231817768307"
+                                        },
+                                        {
+                                            "name": "Amy Shiels",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "231817768305"
+                                        },
+                                        {
+                                            "name": "Rori Hawthorn",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "231817768299"
+                                        },
+                                        {
+                                            "name": "Jill Robertson",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "231817768291"
+                                        },
+                                        {
+                                            "name": "Goran Kostic",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "215772712269"
+                                        },
+                                        {
+                                            "name": "Lydia Leonard",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "228740647978"
+                                        },
+                                        {
+                                            "name": "Declan Recks",
+                                            "groups": [
+                                                "Director"
+                                            ],
+                                            "personId": "228668456060"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "Red Election",
+                                    "synopsis": "Den danska hemliga agenten Katrine Poulson och den brittiska spionen Beatrice Ogilvy ställs mot varandra i en desperat kamp mot klockan. Fångade i ett nät av lögner, mord och maktkamp.",
+                                    "season": {
+                                        "title": "Red Election",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-10-02T22:00:00.000Z",
+                                                "end": "2031-10-02T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "seasons": 1,
+                                    "seriesGuid": "series-red-election"
+                                },
+                                "synopsis": "Den danska hemliga agenten Katrine Poulson och den brittiska spionen Beatrice Ogilvy ställs mot varandra i en desperat kamp mot klockan. Fångade i ett nät av lögner, mord och maktkamp.",
+                                "production": {
+                                    "year": 2021
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2021-10-02T22:00:00.000Z",
+                                    "end": "2031-10-02T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2021-10-02T22:00:00.000Z",
+                                        "end": "2031-10-02T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [
+                                    "originals"
+                                ],
+                                "guid": "series-red-election",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "Red Election",
+                                    "href": "https://content.viaplay.se/pc-se/serier/red-election?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "Red Election",
+                                    "href": "https://content.viaplay.se/pc-se/serier/red-election"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "Red Election",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/red-election"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    },
+                                    {
+                                        "title": "Thriller",
+                                        "tagId": "99368200",
+                                        "href": "https://content.viaplay.se/pc-se/serier/thriller"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                },
+                                "viaplay:trailerStream": {
+                                    "href": "https://play.viaplay.se/api/trailer/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-9561-01E1-4F8E-BDFE-412A-M&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-9561-01E1-4F8E-BDFE-412A-M%3FparentProgramGuid%3Dseries-red-election&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-9561-01E1-4F8E-BDFE-412A-M%3FparentProgramGuid%3Dseries-red-election&sectionPath=%2Fserier&defaultAvailabilityContext=svod",
+                                    "templated": true
+                                },
+                                "viaplay:trailerSelf": {
+                                    "title": "Red Election",
+                                    "href": "https://content.viaplay.se/pc-se/byguid/10-5240-9561-01E1-4F8E-BDFE-412A-M?parentProgramGuid=series-red-election&partial=true"
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "csi-crime-scene-investigation",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257271-3b3a223e1a0e471d1b8713b4ceb3bb5b3380e3ae.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257271-3b3a223e1a0e471d1b8713b4ceb3bb5b3380e3ae.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257272-3fd8a391cf8188346ade528b4a8edc8cdc534475.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257272-3fd8a391cf8188346ade528b4a8edc8cdc534475.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621413974-1909b4eedff4a69b3ac03f9784b1896954a0df11.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257271-3b3a223e1a0e471d1b8713b4ceb3bb5b3380e3ae.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257272-3fd8a391cf8188346ade528b4a8edc8cdc534475.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Jon Wellner",
+                                        "Liz Vassey",
+                                        "Ted Danson",
+                                        "Eric Szmanda",
+                                        "Gary Dourdan",
+                                        "Marg Helgenberger",
+                                        "Paul Guilfoyle",
+                                        "David Berman",
+                                        "George Eads",
+                                        "Lauren Lee Smith",
+                                        "Robert David Hall",
+                                        "Wallace Langham",
+                                        "William Petersen",
+                                        "Laurence Fishburne",
+                                        "Elisabeth Shue",
+                                        "Elisabeth Harnois",
+                                        "Jorja Fox"
+                                    ],
+                                    "participants": [
+                                        "Jon Wellner",
+                                        "Liz Vassey",
+                                        "Ted Danson",
+                                        "Eric Szmanda",
+                                        "Gary Dourdan",
+                                        "Marg Helgenberger",
+                                        "Paul Guilfoyle",
+                                        "David Berman",
+                                        "George Eads",
+                                        "Lauren Lee Smith",
+                                        "Robert David Hall",
+                                        "Wallace Langham",
+                                        "William Petersen",
+                                        "Laurence Fishburne",
+                                        "Elisabeth Shue",
+                                        "Elisabeth Harnois",
+                                        "Jorja Fox"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Laurence Fishburne",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "100541480354"
+                                        },
+                                        {
+                                            "name": "Paul Guilfoyle",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "121161767953"
+                                        },
+                                        {
+                                            "name": "Ted Danson",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "102123560282"
+                                        },
+                                        {
+                                            "name": "Marg Helgenberger",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "104690728032"
+                                        },
+                                        {
+                                            "name": "David Berman",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192552487964"
+                                        },
+                                        {
+                                            "name": "William Petersen",
+                                            "groups": [
+                                                "Executive producer",
+                                                "Actor"
+                                            ],
+                                            "personId": "101585959966"
+                                        },
+                                        {
+                                            "name": "Wallace Langham",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192775208220"
+                                        },
+                                        {
+                                            "name": "Robert David Hall",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "203484712098"
+                                        },
+                                        {
+                                            "name": "Eric Szmanda",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "203484712096"
+                                        },
+                                        {
+                                            "name": "Jorja Fox",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192545832273"
+                                        },
+                                        {
+                                            "name": "George Eads",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "170827303977"
+                                        },
+                                        {
+                                            "name": "Gary Dourdan",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97006632180"
+                                        },
+                                        {
+                                            "name": "Elisabeth Harnois",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "164339240137"
+                                        },
+                                        {
+                                            "name": "Elisabeth Shue",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "95537192020"
+                                        },
+                                        {
+                                            "name": "Jon Wellner",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192564776001"
+                                        },
+                                        {
+                                            "name": "Lauren Lee Smith",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "160025640250"
+                                        },
+                                        {
+                                            "name": "Liz Vassey",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "203484712107"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "CSI: Crime Scene Investigation",
+                                    "synopsis": "Följ ett elitteam av kriminaltekniska utredare när de löser hemska mord på Las Vegas smutsiga, neonspäckade gator.",
+                                    "season": {
+                                        "title": "CSI: Crime Scene Investigation",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-06-01T22:00:00.000Z",
+                                                "end": "2022-11-30T23:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "seasons": 16,
+                                    "seriesGuid": "series-csi-crime-scene-investigation"
+                                },
+                                "synopsis": "Följ ett elitteam av kriminaltekniska utredare när de löser hemska mord på Las Vegas smutsiga, neonspäckade gator.",
+                                "imdb": {
+                                    "id": "tt0247082",
+                                    "rating": "7.6",
+                                    "votes": "79 169",
+                                    "url": "http://www.imdb.com/title/tt0247082?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2000
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2021-06-01T22:00:00.000Z",
+                                    "end": "2022-11-30T23:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2021-06-01T22:00:00.000Z",
+                                        "end": "2022-11-30T23:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-csi-crime-scene-investigation",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "CSI: Crime Scene Investigation",
+                                    "href": "https://content.viaplay.se/pc-se/serier/csi-crime-scene-investigation?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "CSI: Crime Scene Investigation",
+                                    "href": "https://content.viaplay.se/pc-se/serier/csi-crime-scene-investigation"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "CSI: Crime Scene Investigation",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/csi-crime-scene-investigation"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    },
+                                    {
+                                        "title": "Kriminaldrama",
+                                        "tagId": "99368197",
+                                        "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "series",
+                            "publicPath": "equalizer-the",
+                            "content": {
+                                "images": {
+                                    "boxart": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525010-63b39f7199e4988170ace44317262e1e64e84428.jpg?width=199&height=298",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525010-63b39f7199e4988170ace44317262e1e64e84428.jpg{?width,height}"
+                                    },
+                                    "landscape": {
+                                        "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525011-ba8bb5fcb9374c36d0f658ad46c39fd542363618.jpg?width=960&height=540",
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525011-ba8bb5fcb9374c36d0f658ad46c39fd542363618.jpg{?width,height}"
+                                    },
+                                    "hero169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1629712345-6cbd4955ee1f2eec80ccfa6322d3b416fe1ef51b.jpg{?width,height}"
+                                    },
+                                    "coverart23": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525010-63b39f7199e4988170ace44317262e1e64e84428.jpg{?width,height}"
+                                    },
+                                    "coverart169": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525011-ba8bb5fcb9374c36d0f658ad46c39fd542363618.jpg{?width,height}"
+                                    },
+                                    "coverart11": {
+                                        "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/681/544/1624525098-5218ea5cb8b9103dfd3a87a0b9b34411e0492b34.jpg{?width,height}"
+                                    }
+                                },
+                                "people": {
+                                    "actors": [
+                                        "Queen Latifah",
+                                        "Chris Noth",
+                                        "Adam Goldberg",
+                                        "Liza Lapira",
+                                        "Tory Kittles",
+                                        "Lorraine Toussaint",
+                                        "Laya DeLeon Hayes"
+                                    ],
+                                    "participants": [
+                                        "Queen Latifah",
+                                        "Chris Noth",
+                                        "Adam Goldberg",
+                                        "Liza Lapira",
+                                        "Tory Kittles",
+                                        "Lorraine Toussaint",
+                                        "Laya DeLeon Hayes"
+                                    ],
+                                    "people": [
+                                        {
+                                            "name": "Liza Lapira",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "138973224414"
+                                        },
+                                        {
+                                            "name": "Laya DeLeon Hayes",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "192699432315"
+                                        },
+                                        {
+                                            "name": "Queen Latifah",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "100021800368"
+                                        },
+                                        {
+                                            "name": "Lorraine Toussaint",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "184383527978"
+                                        },
+                                        {
+                                            "name": "Adam Goldberg",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "113323048320"
+                                        },
+                                        {
+                                            "name": "Chris Noth",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "97030184399"
+                                        },
+                                        {
+                                            "name": "Tory Kittles",
+                                            "groups": [
+                                                "Actor"
+                                            ],
+                                            "personId": "99356712141"
+                                        }
+                                    ]
+                                },
+                                "parentalRating": "15",
+                                "series": {
+                                    "title": "The Equalizer",
+                                    "synopsis": "Robyn McCall är en mystisk före detta CIA-agent som använder sig av ett stort antal färdigheter för att försvara oskyldiga människor som är i desperat behov av en hjälpande hand.",
+                                    "season": {
+                                        "title": "The Equalizer",
+                                        "availability": {
+                                            "svod": {
+                                                "start": "2021-10-04T22:00:00.000Z",
+                                                "end": "2025-09-21T22:00:00.000Z"
+                                            }
+                                        }
+                                    },
+                                    "seasons": 1,
+                                    "seriesGuid": "series-equalizer-the"
+                                },
+                                "synopsis": "Robyn McCall är en mystisk före detta CIA-agent som använder sig av ett stort antal färdigheter för att försvara oskyldiga människor som är i desperat behov av en hjälpande hand.",
+                                "imdb": {
+                                    "id": "tt11242246",
+                                    "rating": "4.8",
+                                    "votes": "8 171",
+                                    "url": "http://www.imdb.com/title/tt11242246?ref_ext_viaplay"
+                                },
+                                "production": {
+                                    "year": 2021
+                                }
+                            },
+                            "user": {
+                                "starred": false
+                            },
+                            "system": {
+                                "availability": {
+                                    "start": "2021-10-04T22:00:00.000Z",
+                                    "end": "2025-09-21T22:00:00.000Z",
+                                    "planInfo": {
+                                        "isRental": false,
+                                        "isPurchase": false
+                                    },
+                                    "svod": {
+                                        "start": "2021-10-04T22:00:00.000Z",
+                                        "end": "2025-09-21T22:00:00.000Z",
+                                        "planInfo": {
+                                            "isRental": false,
+                                            "isPurchase": false
+                                        }
+                                    }
+                                },
+                                "flags": [],
+                                "guid": "series-equalizer-the",
+                                "isKids": false
+                            },
+                            "_links": {
+                                "self": {
+                                    "title": "The Equalizer",
+                                    "href": "https://content.viaplay.se/pc-se/serier/equalizer-the?partial=true"
+                                },
+                                "viaplay:page": {
+                                    "title": "The Equalizer",
+                                    "href": "https://content.viaplay.se/pc-se/serier/equalizer-the"
+                                },
+                                "viaplay:templatedPage": {
+                                    "title": "The Equalizer",
+                                    "href": "https://content.viaplay.se/{deviceKey}/serier/equalizer-the"
+                                },
+                                "viaplay:genres": [
+                                    {
+                                        "title": "Drama",
+                                        "tagId": "98856440",
+                                        "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                    },
+                                    {
+                                        "title": "Kriminaldrama",
+                                        "tagId": "99368197",
+                                        "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                                    }
+                                ],
+                                "viaplay:peopleSearch": {
+                                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                    "templated": true
+                                },
+                                "viaplay:peoplePage": {
+                                    "href": "https://content.viaplay.se/pc-se/people/{name}?personId=\"{personId}\"",
+                                    "templated": true
+                                }
+                            },
+                            "notice": {
+                                "message": "User must login to view content",
+                                "code": 1002,
+                                "_links": {
+                                    "curies": [
+                                        {
+                                            "name": "viaplay",
+                                            "href": "http://docs.viaplay.tv/rel/{rel}",
+                                            "templated": true
+                                        }
+                                    ],
+                                    "viaplay:accountPurchasePackage": {
+                                        "href": "/package?recommended=viaplay",
+                                        "templated": false,
+                                        "redirect": false
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=1"
+                    },
+                    "next": {
+                        "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=2{&productsPerPage}",
+                        "templated": true
+                    },
+                    "first": {
+                        "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=1"
+                    },
+                    "last": {
+                        "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=61"
+                    }
+                }
+            }
+        ]
+    },
+    "responseCode": {
+        "httpStatus": 200,
+        "statusCode": 200,
+        "code": 1
+    }
+}
