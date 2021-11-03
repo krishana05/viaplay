@@ -77,7 +77,7 @@ function ShowList() {
   }
   useEffect(() => {
     //http://localhost:8000/shows
-    fetch('http://myjson.dit.upm.es/api/bins/aq19')
+    fetch('https://myjson.dit.upm.es/api/bins/aq19')
       .then((res) => res.json())
       .then((data) => {
         setShowLoader(false);
